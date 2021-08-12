@@ -1,3 +1,9 @@
+Version 1.1.2 (August 12th 2021)
+
+* In response to feedback I got on Reddit, a new recipe has been added which will give the skull from butchered humanoids.
+	* Available at both the butcher's table and the butcher's spot.
+* Changed name of mod to Easier Skull Gathering (was Skulls from Cremation).
+
 Version 1.0.1 (August 12th 2021)
 
 * Initial release.
