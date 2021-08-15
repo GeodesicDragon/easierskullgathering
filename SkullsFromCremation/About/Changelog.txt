@@ -1,3 +1,19 @@
+Version 1.2.5 (August 15th 2021)
+
+* Fixed 'Failed to find Verse.ThingCategoryDef named Corpse_Human. There are <x> defs of this type loaded.' error.
+	* At least, I think I did; I don't get it on startup anymore.
+	* Thanks to blargsnarf from Reddit for bringing this error to my attention.
+	* I suggest that you check your bills to make sure the option on whether or not to use colonist corpses is set to your own preference.
+* If you use the Fertile Fields mod, you should now get a skull when you turn corpses into compost.
+	* Thanks to Grumbaki from Reddit for suggesting that I patch this in.
+* It is no longer possible to acquire skulls from headless corpses.
+	* Use of this mod now requires that you have the '[1001]Filter by Headless' mod installed. (It is not required to load this mod after that one.)
+
+Version 1.1.3 (August 13th 2021)
+
+* Changed name of mod (yet again) to Simple Skulls (was Easier Skull Gathering).
+	* Thanks to Jiopaba from the RimWorld Discord for the suggestion.
+
 Version 1.1.2 (August 12th 2021)
 
 * In response to feedback I got on Reddit, a new recipe has been added which will give the skull from butchered humanoids.

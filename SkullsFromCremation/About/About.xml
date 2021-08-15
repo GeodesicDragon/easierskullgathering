@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Easier Skull Gathering</name>
+	<name>Simple Skulls</name>
 	<author>GeodesicDragon</author>
 	<packageId>geodesicdragon.easierskullgathering</packageId>
 	<url>https://discord.gg/BGKnpza</url>
@@ -12,8 +12,15 @@
 			<packageId>Ludeon.RimWorld.Ideology</packageId>
 			<displayName>Ideology</displayName>
 		</li>
+		<li>
+			<packageId>papercrane1001.FilterByHeadless</packageId>
+			<displayName>[1001]Filter by Headless</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2567718945</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<description>Adds two recipes to the crematorium, both of which provide a skull when a humanoid corpse is destroyed; one will auto strip the corpse while the other won't. Also adds recipes to the butcher's table and the butcher's spot.
 	
-Handy for building all those skullspikes you need to keep those pesky slaves in line.</description>
+Handy for building all those skullspikes you need to keep those pesky slaves in line.
+
+Thanks to Jiopaba from the RimWorld Discord for the name of the mod.</description>
 </ModMetaData>

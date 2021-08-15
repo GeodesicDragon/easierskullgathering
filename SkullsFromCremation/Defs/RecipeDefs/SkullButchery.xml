@@ -2,8 +2,8 @@
 
   <RecipeDef>
     <defName>ButcherHumanCorpseForSkull</defName>
-    <label>butcher creature for skull</label>
-    <description>Butcher a humanoid corpse creature to obtain its meat, leather, worn apparel and skull.</description>
+    <label>butcher humanoid for skull</label>
+    <description>Butcher a humanoid corpse in order to obtain its meat, leather, worn apparel and skull.</description>
     <workerCounterClass>RecipeWorkerCounter_ButcherAnimals</workerCounterClass>
     <jobString>Butchering.</jobString>
     <workAmount>450</workAmount>
@@ -13,7 +13,7 @@
     <effectWorking>ButcherFlesh</effectWorking>
     <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
     <interruptIfIngredientIsRotting>true</interruptIfIngredientIsRotting>
-    <uiIconThing>Meat_Muffalo</uiIconThing>
+    <uiIconThing>Skull</uiIconThing>
     <ingredients>
       <li>
         <filter>
@@ -37,13 +37,19 @@
       </disallowedCategories>
       <specialFiltersToDisallow>
         <li>AllowRotten</li>
+		<li>AllowHeadless</li>
       </specialFiltersToDisallow>
     </fixedIngredientFilter>
-    <defaultIngredientFilter>
-      <categories>
-        <li>Corpse_Human</li>
-      </categories>
-    </defaultIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>CorpsesHumanlike</li>
+			</categories>
+			<specialFiltersToAllow>
+				<li>AllowCorpsesColonist</li>
+				<li>AllowCorpsesStranger</li>
+				<li>AllowHeaded</li>
+			</specialFiltersToAllow>
+		</defaultIngredientFilter>
 	<products>
       <Skull>1</Skull>
     </products>

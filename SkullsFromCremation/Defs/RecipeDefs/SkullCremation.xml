@@ -30,6 +30,9 @@
         <li>CorpsesMechanoid</li>
 		<li>CorpsesAnimal</li>
       </disallowedCategories>
+      <specialFiltersToDisallow>
+		<li>AllowHeadless</li>
+      </specialFiltersToDisallow>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
@@ -38,6 +41,7 @@
       <specialFiltersToAllow>
         <li>AllowCorpsesColonist</li>
         <li>AllowCorpsesStranger</li>
+		<li>AllowHeaded</li>
       </specialFiltersToAllow>
     </defaultIngredientFilter>
 	<products>
@@ -78,6 +82,9 @@
         <li>CorpsesMechanoid</li>
 		<li>CorpsesAnimal</li>
       </disallowedCategories>
+      <specialFiltersToDisallow>
+		<li>AllowHeadless</li>
+      </specialFiltersToDisallow>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
       <thingDefs>
@@ -86,6 +93,7 @@
       <specialFiltersToAllow>
         <li>AllowCorpsesColonist</li>
         <li>AllowCorpsesStranger</li>
+		<li>AllowHeaded</li>
       </specialFiltersToAllow>
     </defaultIngredientFilter>
 	<products>
