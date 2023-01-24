@@ -1,0 +1,23 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Fertile Fields [1.1]</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="CompostCorpse"]/products</xpath>
+					<value>
+						<Skull>1</Skull>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="CompostCorpseCampfire"]/products</xpath>
+					<value>
+						<Skull>1</Skull>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

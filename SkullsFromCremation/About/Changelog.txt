@@ -1,3 +1,17 @@
+Version 1.8.8 (January 23rd 2023)
+
+* Mod is now compatible with the RimWorld 1.4 patch.
+* Honest Corpse: Recipes added by this mod are now patched to require corpses with heads by default. If you want to disable this, follow the instructions in the description on the Steam Workshop.
+
+Version 1.8.6 (April 3rd 2022)
+
+* Added six new patches which will be applied if Honest Corpse is enabled.
+	* Acquire 1 skull while liquifying corpses.
+	* Acquire 1 skull while extracting iron from corpses.
+	* Acquire 3 skulls while acidifying corpses.
+	* I also included patches which changed these recipes to no longer allow the use of headless corpses, but I commented them out so they wouldn't be applied (since you'd have to dispose of headless corpses another way). If you want to use these patches, feel free to edit the patch file. Detailed instructions on how to do this can be found in the description on the Steam Workshop.
+* The patch for Fertile Fields now properly checks to see if that mod is enabled.
+
 Version 1.2.5 (August 15th 2021)
 
 * Fixed 'Failed to find Verse.ThingCategoryDef named Corpse_Human. There are <x> defs of this type loaded.' error.

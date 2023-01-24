@@ -6,6 +6,7 @@
 	<url>https://discord.gg/BGKnpza</url>
 	<supportedVersions>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
 	<modDependencies>
 		<li>
@@ -13,14 +14,20 @@
 			<displayName>Ideology</displayName>
 		</li>
 		<li>
-			<packageId>papercrane1001.FilterByHeadless</packageId>
-			<displayName>[1001]Filter by Headless</displayName>
-			<steamWorkshopUrl>steam://url/CommunityFilePage/2567718945</steamWorkshopUrl>
+			<packageId>keitetsu.FilterByHeadless</packageId>
+			<displayName>Filter by Headless (1.4)</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2916348201</steamWorkshopUrl>
 		</li>
 	</modDependencies>
-	<description>Adds two recipes to the crematorium, both of which provide a skull when a humanoid corpse is destroyed; one will auto strip the corpse while the other won't. Also adds recipes to the butcher's table and the butcher's spot.
-	
-Handy for building all those skullspikes you need to keep those pesky slaves in line.
+	<loadAfter>
+		<li>keitetsu.FilterByHeadless</li>
+		<li>Hahke.HonestCorpse</li>
+	</loadAfter>
+	<description>Are you like me and keep forgetting to remove skulls from corpses before cremating or butchering them? Then this mod is for you!
+
+Adds two recipes to the crematorium, both of which provide a skull when a humanoid corpse is destroyed; one will auto strip the corpse while the other won't. Also adds recipes to the butcher's table and the butcher's spot.
+
+Handy for building all of the skullspikes you'll need to keep those pesky slaves in line.
 
 Thanks to Jiopaba from the RimWorld Discord for the name of the mod.</description>
 </ModMetaData>

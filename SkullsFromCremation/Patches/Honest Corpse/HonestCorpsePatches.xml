@@ -1,0 +1,35 @@
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Honest Corpse</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="LiquefyCorpseAtCrematorium" or defName="LiquefyCorpseAtCrematoriumNoStrip" or defName="ExtractIronFromCorpseAtCrematorium" or defName="ExtractIronFromCorpseAtCrematoriumNoStrip"]/products</xpath>
+					<value>
+						<Skull>1</Skull>
+					</value>
+				</li>
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="AcidifyCorpseAtCrematorium" or defName="AcidifyCorpseAtCrematoriumNoStrip"]/products</xpath>
+					<value>
+						<Skull>3</Skull>
+					</value>
+				</li>
+				
+				<!--DISALLOW USE OF HEADLESS CORPSES-->
+				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/RecipeDef[defName="LiquefyCorpseAtCrematorium" or defName="LiquefyCorpseAtCrematoriumNoStrip" or defName="ExtractIronFromCorpseAtCrematorium" or defName="ExtractIronFromCorpseAtCrematoriumNoStrip" or defName="AcidifyCorpseAtCrematorium" or defName="AcidifyCorpseAtCrematoriumNoStrip"]/defaultIngredientFilter</xpath>
+					<value>
+						<specialFiltersToDisallow>
+							<li>AllowHeadless</li>
+						</specialFiltersToDisallow>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
